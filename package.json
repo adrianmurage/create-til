@@ -1,0 +1,26 @@
+{
+  "name": "@adrianmurage/create-til",
+  "version": "1.0.0",
+  "description": "A CLI to create new til notes",
+  "main": "src/index.js",
+  "bin": {
+    "@adrianmurage/create-til": "bin/create-til",
+    "create-til": "bin/create-til"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-til",
+    "til"
+  ],
+  "author": "@adrianmurage",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
